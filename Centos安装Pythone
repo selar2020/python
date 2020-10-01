@@ -1,0 +1,18 @@
+1. 在服务器上通过命令下载
+    wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz
+2. 解压文件
+    tar -xvzf Python-3.8.2.tgz
+3.进入文件的目录
+    cd Python-3.8.2
+4. 添加配置文件
+    （1）配置安装目录
+       ./configure --prefix=/usr/python
+
+    （2）应用配置
+      ./configure --enable-optimizations
+5.编译源码
+    make
+6.执行安装
+    make install
+7. 测试
+    python3
